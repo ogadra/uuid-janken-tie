@@ -1,0 +1,24 @@
+{
+  "name": "uuid-janken-tie",
+  "description": "UUIDじゃんけん(uuid-janken.mimifuwa.cc)を常にあいこにするChrome拡張機能",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "compile": "tsc --noEmit",
+    "icon": "node scripts/generate-icon.mjs",
+    "shot": "wxt build && node scripts/screenshot.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@wxt-dev/auto-icons": "^1.1.1",
+    "playwright": "^1.61.1",
+    "sharp": "^0.35.3",
+    "typescript": "^5.6.3",
+    "wxt": "^0.20.27"
+  },
+  "packageManager": "pnpm@11.9.0"
+}
