@@ -1,7 +1,7 @@
 {
   "name": "uuid-janken-tie",
   "description": "UUIDじゃんけん(uuid-janken.mimifuwa.cc)を常にあいこにするChrome拡張機能",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
